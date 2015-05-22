@@ -4,6 +4,7 @@ Created By      : Agus Makmun (Summon Agus)
 Blog            : bloggersmart.net - python.web.id
 Documentation   : https://github.com/agusmakmun/Python-Wordlist-Generator/
 License         : GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007
+Thanks to       : falsetru - http://stackoverflow.com/a/21559115
 """
 
 import time
