@@ -21,3 +21,4 @@ for n in range(min_length, max_length+1):                   #creating looping wi
         create.write("%s\n" % saved)                        #create output for wordlist.txt
 
 create.close()                                              #close create after looping 'for'
+print "End Time: ", time.strftime('%H:%M:%S')
