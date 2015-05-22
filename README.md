@@ -13,3 +13,7 @@ License         : GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007
 
 For output, you can check sample this file: <a href='https://github.com/agusmakmun/Python-Wordlist-Generator/blob/master/wordlist.txt' target='_blank'>wordlist.txt</a>
 
+Have awesome creation, with minimum and maximum creation.
+For example:
+<pre>
+
