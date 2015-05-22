@@ -11,7 +11,7 @@ import itertools, string
 print "Creating ..."
 print "Start Time: ", time.strftime('%H:%M:%S')
 chrs = string.printable.replace(' \t\n\r\x0b\x0c', '')      #use module string method for all chars
-min_length, max_length = 1, 1                               #minimum and maximum created
+min_length, max_length = 1, 2                               #minimum and maximum created
 
 create = open('wordlist.txt', 'w')
 for n in range(min_length, max_length+1):                   #creating looping with 'for'
