@@ -53,4 +53,4 @@ Then Output:
 ~~
 </pre>
 
-Then with awesome this script, you can creating awesome wordlist with minimun or maximum output file.
+Then with awesome this script, you can creating awesome wordlist with minimun to maximum length output words.
