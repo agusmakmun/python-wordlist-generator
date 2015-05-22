@@ -14,6 +14,7 @@ License         : GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007
 For output, you can check sample this file: <a href='https://github.com/agusmakmun/Python-Wordlist-Generator/blob/master/wordlist.txt' target='_blank'>wordlist.txt</a>
 
 This script was modified from this thread: http://stackoverflow.com/a/21559115
+
 question for: Python - how to generate wordlist from given characters of specific length
 
 So in this time, we have an idea for modified it with <code>string characters</code> in the module string.
