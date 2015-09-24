@@ -1,6 +1,7 @@
 # Python-Wordlist-Generator
 Creating Awesome Wordlist with Python<br />
 update: see <b><a href="https://github.com/agusmakmun/Python-Wordlist-Generator/blob/master/Wordlist%20Generator%20v0.2.py">Wordlist Generator v0.2.py</a></b>, with support 2 method:
+
 1. Real Complete Characters
 2. Complete Chars from Input
 
