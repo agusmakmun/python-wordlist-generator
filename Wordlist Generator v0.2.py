@@ -3,7 +3,7 @@ import time
 import itertools, string
 
 info = """
-  Name            : Python Wordlist Generator
+  Name            : Python Wordlist Generator v0.2
   Created By      : Agus Makmun (Summon Agus)
   Blog            : bloggersmart.net - python.web.id
   Documentation   : https://github.com/agusmakmun/Python-Wordlist-Generator/
