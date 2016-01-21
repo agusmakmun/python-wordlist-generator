@@ -5,6 +5,9 @@ update: see <b><a href="https://github.com/agusmakmun/Python-Wordlist-Generator/
 1. Real Complete Characters
 2. Complete Chars from Input
 
+<blockquote>
+If you want getting with first method, we recommend to you use <code>min_length</code> and <code>max_length</code> as same as with max-length. example use: <code>min_length: 4</code> and <code>max-length: 4</code>.
+</blockquote>
 
 <pre>
 """
