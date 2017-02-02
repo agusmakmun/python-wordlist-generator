@@ -1,64 +1,43 @@
-# Python-Wordlist-Generator
-Creating Awesome Wordlist with Python<br />
-update: see <b><a href="https://github.com/agusmakmun/Python-Wordlist-Generator/blob/master/Wordlist%20Generator%20v0.2.py">Wordlist Generator v0.2.py</a></b>, with support 2 method:
+# Python Wordlist Generator
 
-1. Real Complete Characters
-2. Complete Chars from Input
+> Creating Awesome Wordlist with Python.
+> You can check sample this file: [`output/wordlist.txt`](output/wordlist.txt)
 
-<blockquote>
-If you want getting with first method, we recommend to you use <code>min_length</code> and <code>max_length</code> as same as with max-length. example use: <code>min_length: 4</code> and <code>max-length: 4</code>.
-</blockquote>
+### Usage
 
-<pre>
-"""
-Name            : Python Wordlist Generator
-Created By      : Agus Makmun (Summon Agus)
-Blog            : bloggersmart.net - python.web.id
-Documentation   : https://github.com/agusmakmun/Python-Wordlist-Generator/
-License         : GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007
-Thanks to       : falsetru - http://stackoverflow.com/a/21559115
-"""
-</pre>
+```
+usage: wgen.py [-h] [-chr CHARS] [-min MIN_LENGTH] [-max MAX_LENGTH]
+               [-out OUTPUT]
 
-For output, you can check sample this file: <a href='https://github.com/agusmakmun/Python-Wordlist-Generator/blob/master/wordlist.txt' target='_blank'>wordlist.txt</a>
+Python Wordlist Generator
 
-This script was modified from this thread: http://stackoverflow.com/a/21559115
+optional arguments:
+  -h, --help            show this help message and exit
+  -chr CHARS, --chars CHARS
+                        characters to iterate
+  -min MIN_LENGTH, --min_length MIN_LENGTH
+                        minimum length of characters
+  -max MAX_LENGTH, --max_length MAX_LENGTH
+                        maximum length of characters
+  -out OUTPUT, --output OUTPUT
+                        output of wordlist file.
+```
 
-question for: Python - how to generate wordlist from given characters of specific length
+### Example
 
-So in this time, we have an idea for modified it with <code>string characters</code> in the module string.
-And then output <code>wordlist.txt</code> for that output minimum to maximum length words.
+```
+$ python3 wgen.py -chr=abc -min=1 -max=4 -out=output/wordlist.txt
 
-Have awesome creation, with minimum and maximum creation.
-For example:
-<h5>For 1 length method:</h5>
-<pre>
-min_length, max_length = 1, 1
-</pre>
+# or
 
-Then Output:
-<pre>
-0
-1
-2
-3
-...
-~
-</pre>
+$ python3 wgen.py --chars=abc --min_length=1 --max_length=4 --output=output/wordlist.txt
+```
 
-<h5>For 2 length method:</h5>
-<pre>
-min_length, max_length = 1, 2
-</pre>
+### Disclaimer
 
-Then Output:
-<pre>
-0
-1
-2
-3
-...
-~~
-</pre>
-
-Then with awesome this script, you can creating awesome wordlist with minimun to maximum length output words.
+> Because many are violating the ITE Law,
+> therefore this disclaimer we made to protect us from legal related undesirable actions of other parties,
+> such as using this scripts or code for unlawful activities.
+>
+> Therefore we with **EXPRESSLY** stating **NOT RESPONSIBLE** and **FREE FROM CLAIMS OF LAW**
+> for any misuse of script or code that we provide on this repository.
