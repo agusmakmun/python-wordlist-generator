@@ -17,7 +17,7 @@ def createWordList(chrs, min_length, max_length, output):
         print ("[!] Please `min_length` must smaller or same as with `max_length`")
         sys.exit()
 
-    if os.path.exists(output) == False:
+    if os.path.exists(os.path.dirname(output)) == False:
         os.makedirs(os.path.dirname(output))
 
     print ('[+] Creating wordlist at `%s`...' % output)
