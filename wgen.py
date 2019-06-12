@@ -20,6 +20,8 @@ def createWordList(chrs, min_length, max_length, output):
     if os.path.exists(os.path.dirname(output)) == False:
         os.makedirs(os.path.dirname(output))
 
+    chrs = set(list(chrs))
+
     print ('[+] Creating wordlist at `%s`...' % output)
     print ('[i] Starting time: %s' % time.strftime('%H:%M:%S'))
 
